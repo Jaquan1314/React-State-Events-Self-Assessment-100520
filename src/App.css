@@ -25,6 +25,11 @@ background-color: bisque;
   font-style: italic;
 }
 
+div {
+  /* display: column; */
+  text-align: center;
+}
+
 img{
   transition: 1s;
   max-width: 40vw;
@@ -35,4 +40,11 @@ img{
 
 img:hover{
   cursor: pointer;
+}
+
+
+h1 {
+  border: 2px solid red;
+  border-radius: 15px;
+  margin: 2em 9em;
 }
